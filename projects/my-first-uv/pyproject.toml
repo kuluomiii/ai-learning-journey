@@ -1,18 +1,18 @@
 [project]
-name = "hello-uv"
+name = "my-first-uv"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 authors = [
     { name = "whl", email = "1430721439@qq.com" }
 ]
-requires-python = ">=3.13"
+requires-python = ">=3.12"
 dependencies = [
-    "requests>=2.34.2",
+    "rich>=15.0.0",
 ]
 
 [project.scripts]
-hello-uv = "hello_uv:main"
+my-first-uv = "my_first_uv:main"
 
 [build-system]
 requires = ["uv_build>=0.13.1,<0.14.0"]
